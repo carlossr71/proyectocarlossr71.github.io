@@ -76,8 +76,9 @@ aside p {
     padding-left: 30px;
     padding-right: 30px;
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 24px;
+    background-color: #0B6057;
+    height: 100%;
 
 }
 
