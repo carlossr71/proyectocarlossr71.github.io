@@ -133,6 +133,10 @@ article p {
 
 .tienda h2 {
     text-align: center;
+    background-color:#138174;
+    margin:25px;
+    margin-right:29px;
+    
 }
 
 .tienda p {
@@ -141,4 +145,5 @@ article p {
     padding-left: 30px;
     padding-right: 39px;
     padding-top: 16px;
+    background-color: #0B6057;
 }
