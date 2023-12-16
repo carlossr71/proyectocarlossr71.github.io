@@ -69,8 +69,13 @@ section {
     
 }
 section h2 {
-    padding-left: 23px;
+    padding-left: 10px;
     font-size: 23.4px;
+    background-color: #74746D;
+    margin-left:23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .pcGaming, .monitores, .cascos{
@@ -91,6 +96,7 @@ section h2 {
 
 .pcGaming p, .monitores p, .cascos p{
     color:#ff9840;
+    background-color: #322525;
 }
 
 .content-wrapper {
