@@ -125,8 +125,10 @@ article p {
 
 .tienda img {
     width: 70%;
-    align-self: center;
     margin-right: 7px;
+    margin-bottom: 38px;
+    margin-top: 15px;
+    
 }
 
 .tienda h2 {
@@ -142,9 +144,16 @@ article p {
     text-align: justify;
     padding-left: 30px;
     padding-right: 39px;
-    padding-top: 38px;
-    background-color: #0B6057;
+    padding-top: 55px;
+    
+}
+
+.subtitulo {
+    margin-left: 49px;
+}
+
+.parrafoTienda {
     height: 100%;
     display: flex;
-    justify-content: center; /* Alinea horizontalmente en el centro */
+    background-color: #0B6057;
 }
