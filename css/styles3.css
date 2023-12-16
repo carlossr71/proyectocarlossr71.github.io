@@ -120,14 +120,12 @@ article p {
 .tienda {
     background-color: #38E0C7;
     padding-top: 20px;
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 
 .tienda img {
     width: 70%;
     align-self: center;
-    margin-top: 20px;
     margin-right: 7px;
 }
 
@@ -144,6 +142,10 @@ article p {
     text-align: justify;
     padding-left: 30px;
     padding-right: 39px;
-    padding-top: 16px;
+    padding-top: 26px;
     background-color: #0B6057;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente en el centro */
+    align-items: center;
 }
