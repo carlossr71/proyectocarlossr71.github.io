@@ -142,10 +142,9 @@ article p {
     text-align: justify;
     padding-left: 30px;
     padding-right: 39px;
-    padding-top: 26px;
+    padding-top: 38px;
     background-color: #0B6057;
     height: 100%;
     display: flex;
     justify-content: center; /* Alinea horizontalmente en el centro */
-    align-items: center;
 }
