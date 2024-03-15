@@ -1,78 +1,124 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos CarlGaming</title>
-    <link rel="icon" href="img/descarga334.png"/>
-    <link rel="stylesheet" type="text/css" href="css/styles2.css" />
-</head>
-<body>
-    <div class="container">
-        <header>
-            <div>
-                <img class="logo" src="img/descarga333.png" alt="Logo">
-            </div>
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="productos.html">Productos</a>
-                <a href="conocenos.html">Conócenos</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos CarlGaming</title>
+        <link rel="icon" href="../img/descarga334.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../css2/styles.css">
+    </head>
+    <body style="overflow-x: hidden;">
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand mx-4">
+                    <img class="logo" src="../img/descarga333.png" alt="Logo" width="100%">
+                </a>
+                <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end p-4 mx-auto" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link active text-white" aria-current="page" href="productos.html">Productos</a>
+                        <a class="nav-link active text-white" aria-current="page" href="conocenos.html">Conócenos</a>
+                    </div>
+                </div>
             </nav>
-        </header>
-        <section>
-            <img src="img/CV.png" alt="Foto de Carlos"/>
-            <div class="experto">
-                <h2>¡Hola! Soy Carlos, experto en Informática y esta es mi selección de productos para gaming.</h2>
-            </div>
-        </section>
-        <div class="content-wrapper">
-            <div class="pcGaming">
-                <h3>PC Gaming</h3>
-                <img src="img/EpicalQMorex.jpg" alt="Imagen de pc gaming">
-                <h2>Epical-Q Morex AMD Ryzen 7 5800X, 32GB, 2TB, RTX 4060Ti + Windows 11 Home</h2>
-                <p><strong>1369,90€</strong></p>
-                <br><br>
-                <img src="img/ZoneEvil.jpg" alt="Imagen de pc gaming 2">
-                <h2>Zone Evil Intel Core i5-12400F/32GB/1TB SSD/RTX 4070</h2>
-                <p><strong>1387,72€</strong></p>
-            </div>
-            <div class="monitores">
-                <h3>Monitor Gaming</h3>
-                <img src="img/monitor.jpg" alt="Imagen de monitor gaming">
-                <h2>Samsung Odyssey G6 LS27BG650EUXEN 27" LED QHD 240Hz FreeSync Premium Pro Smart Curva</h2>
-                <p><strong>429,50€</strong></p>
-                <br><br>
-                <img src="img/HPOMENX27.jpg" alt="Imagen de monitor gaming 2">
-                <h2>HP OMEN X 27 27" LED QuadHD HDR 240Hz FreeSync</h2>
-                <p><strong>520,14€</strong></p>
-
-            </div>
-            <div class="cascos">
-                <h3>Auriculares Gaming</h3>
-                <img src="img/cascos.jpg" alt="Imagen de cascos gaming">
-                <h2>Logitech G733 Lightspeed RGB Auriculares con Micrófono Inalámbricos Gaming Negros</h2>
-                <p><strong>127,99€</strong></p>
-                <br><br>
-                <img src="img/RazerBlacksharkV2.jpg" alt="Imagen de cascos gaming 2">
-                <h2>Razer Blackshark V2 Edición Especial Auriculares Gaming Multiplataforma</h2>
-                <p><strong>79,99€</strong></p>
-
-            </div>
-            
         </div>
-        <footer>
-            <div>
-                <p>Tfno: 984 53 23 48</p>
+    </header>
+
+    <section class="container-fluid py-4" style="background-color: #38e0c7;">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
+                <img src="../img/CV.png" alt="Foto de Carlos" class="img-fluid" style="width: 56%; border-radius: 50%;">
             </div>
-            
-            <div class="social">
-                <a href="https://www.instagram.com/"><img src="img/instagram.jpg" alt="instagram"/></a>
-                <a href="https://x.com"><img src="img/twitter.jpg" alt="twitter"/></a>
-                <a href="https://web.telegram.org/"><img src="img/telegram.jpg" alt="telegram"/></a>
+            <div class="col-lg-10 col-md-6 col-sm-12 d-flex align-items-center">
+                <div class="experto" style="margin-left: 1%;">
+                    <h2 style="color: white; font-size: 26px; background-color: #74746d" class="p-2">¡Hola! Soy Carlos, experto en Informática y esta es mi selección de productos para gaming.</h2>
+                </div>
             </div>
-        </footer>
+        </div>
+    </section>
+    <div class="container-fluid py-4 mt-1" style="background-color: #806f60; text-align: center;">
+        <div class="row m-4 mt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../img/EpicalQMorex.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PC Gaming</h5>
+                        <p class="card-text">Epical-Q Morex AMD Ryzen 7 5800X, 32GB, 2TB, RTX 4060Ti + Windows 11 Home</p>
+                        <p class="precio">1369,90€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../img/monitor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitor Gaming</h5>
+                        <p class="card-text">Samsung Odyssey G6 LS27BG650EUXEN 27" LED QHD 240Hz FreeSync Premium Pro Smart Curva</p>
+                        <p class="precio">429,50€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../img/cascos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Auriculares Gaming</h5>
+                        <p class="card-text">Logitech G733 Lightspeed RGB Auriculares con Micrófono Inalámbricos Gaming Negros</p>
+                        <p class="precio">127,99€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../img/ZoneEvil.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PC Gaming</h5>
+                        <p class="card-text">Zone Evil Intel Core i5-12400F/32GB/1TB SSD/RTX 4070</p>
+                        <p class="precio">1387,72€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../img/HPOMENX27.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitor Gaming</h5>
+                        <p class="card-text">HP OMEN X 27 27" LED QuadHD HDR 240Hz FreeSync</p>
+                        <p class="precio">520,14€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="../img/RazerBlacksharkV2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Auriculares Gaming</h5>
+                        <p class="card-text">Razer Blackshark V2 Edición Especial Multiplataforma</p>
+                        <p class="precio">79,99€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</body>
+
+    <footer class="d-flex flex-wrap justify-content-between mt-1 py-4">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <p style="font-size: 20px; margin-bottom: 0; margin-left: 20px; color: white;">Tfno: 984 53 23 48</p>
+        </div>
+        <div class="social col-lg-6 col-md-6 col-sm-12 d-flex justify-content-end">
+            <a href="https://www.instagram.com/" style="margin-right: 10px;"><img src="../img/instagram.jpg" alt="instagram" width="36px"></a>
+            <a href="https://x.com" style="margin-right: 10px;"><img src="../img/twitter.jpg" alt="twitter" width="36px"></a>
+            <a href="https://web.telegram.org/"><img src="../img/telegram.jpg" alt="telegram" width="36px"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+EH6ko/6j7cUp+Jinx2V4q+8dh8VI6joafePvC8" crossorigin="anonymous"></script>
+    </body>
 </html>
-
-
